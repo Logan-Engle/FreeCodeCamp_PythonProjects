@@ -11,7 +11,6 @@ def arithmetic_arranger(problem_list, answer_flag=False):
     second_line = ""
     equals_line = ""
     answer_line = ""
-    string = ""
 
     # Error catching for more than 5 problems
     if len(problem_list) > 5:

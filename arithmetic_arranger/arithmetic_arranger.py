@@ -3,7 +3,7 @@ import re
 def arithmetic_arranger(problem_list, answer_flag=False):
     """
     Given a list of up to 5 basic addition or subtraction problems
-    formats the problems like one would in primary school all and
+    formats the problems like one would in primary school and
     provides answers when the answer flag is set to true
     """
     

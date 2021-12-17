@@ -46,20 +46,20 @@ def arithmetic_arranger(problem_list, answer_flag=False):
 
         # handles spacing between problems
         if problem != problem_list[-1]:
-            first_line +=  top    + '    '
-            second_line += bottom + '    '
-            equals_line += equals + '    '
-            answer_line += answer + '    '
+            first_line  += f"{top}    "
+            second_line += f"{bottom}    "
+            equals_line += f"{equals}    "
+            answer_line += f"{answer}    "
         else:
-            first_line +=  top    
+            first_line  += top    
             second_line += bottom 
             equals_line += equals 
             answer_line += answer 
 
     # outputs depending on answer flag
     if answer_flag:
-        string = first_line + "\n" + second_line + "\n" + equals_line + "\n" + answer_line
+        string = f"{first_line}\n{second_line}\n{equals_line}\n{answer_line}"
     else:
-        string = first_line + "\n" + second_line + "\n" + equals_line
+        string = f"{first_line}\n{second_line}\n{equals_line}"
         
     return string
